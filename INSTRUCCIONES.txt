@@ -1,0 +1,22 @@
+El repositorio cuenta con dos proyectos, la api y la app de react, cada uno en una carpeta.
+
+-API TEST KALMY
+Para correr la api de kalmy, necesitas tener visual studio Framework .Net 4.5
+En la solucion hay un proyecto llamado api-test-kalmy, se ejecuta el proyecto y empezara a correr el servicio.
+Aparecerá una pagina web con un forbbiden, y la url deberia de ser http://localhost:55657/, si cambias la url a http://localhost:55657/swagger
+deberia aparecer la documentación de la api.
+
+-APP REACT TEST KALMY 
+Para correr la app de react necesitas tener node  instalado.
+Con la consola en la direccion de la carpeta .../app-react-test-kalmy
+Ejecutas npm install - Esto instalara algunas dependencias del proyecto
+Ejecutas npm start - Esto abrira en una nueva pantalla del navegador la app
+La url deberia de ser http://localhost:3000/
+La app tiene dos vistas: Login y Dashboard, antes de pasar al Dashboard y poder hacer las solicitudes de los servicios para los reportes
+debes iniciar sesion
+Usuario: administrator
+Constraseña: miPassword12345
+
+Tienen que estar corriendo la api para que la app pueda consumir los servicios.
+
+
