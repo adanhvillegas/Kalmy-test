@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>api-test-kalmy</name>
+    </assembly>
+    <members>
+        <member name="M:api_test_kalmy.Controllers.LoginController.Authenticate(api_test_kalmy.Models.LoginRequest)">
+            <summary>
+            Autentifica al usuario mediante usuario y contraseña, si los datos son correctos regresa un token para los servicios que requieren autorizacion
+            </summary>
+            <param name="login">Objeto con las propiedades Username y Password</param>
+            <returns></returns>
+        </member>
+        <member name="M:api_test_kalmy.Controllers.RentsController.CustomersController.GetCarRents(api_test_kalmy.Models.CarRentsRequest)">
+            <summary>
+            Regresa un listado de rentas agrupados por uno o dos parametros
+            </summary>
+            <param name="request">Objeto con las propiedades A1 y A2</param>            
+            <returns></returns>
+        </member>
+    </members>
+</doc>
