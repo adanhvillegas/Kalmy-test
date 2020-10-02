@@ -1,0 +1,21 @@
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #333333;
+}
+
+.container-login {
+    margin: 1em;
+    width: 100vw;
+    max-width: 400px;
+}
+
+.container-dashboard {
+    height: 90vh;
+}
+
+.segmento-dashboard {
+    height: 100%;
+}
